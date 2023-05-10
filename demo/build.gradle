@@ -1,5 +1,13 @@
 //add everything here
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':utils')
+}
+
 test {
     useJUnitPlatform()
 }
